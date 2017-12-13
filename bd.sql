@@ -48,6 +48,7 @@ CREATE TABLE `SALA_REMOTA` (
 	`email_responsable` NVARCHAR(70),
 	`ip` NVARCHAR(50),
 	`isdn` NVARCHAR(50),
+	
 	CONSTRAINT `PrimaryKey` PRIMARY KEY (`id_sala_remota`)
 )
 ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
