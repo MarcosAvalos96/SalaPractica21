@@ -50,7 +50,7 @@ require "cfg/conexion.php";
    }
    echo "</table>";
 ?>
-   <button type="button" class="btn btn-success" onclick="window.location.href='sala_remota.html'">Angregar Sala</button>
+   <button type="button" class="btn btn-success" onclick="window.location.href='sala_remota.html'">Agregar Sala</button>
    </div>
     <!-- jQuery -->
     <script src="../js/jquery.js"></script>
