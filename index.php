@@ -43,7 +43,7 @@ require "cfg/conexion.php";
    echo "<td>". $dato['telefono']."</td>";
    echo "<td>". $dato ['email_responsable']."</td>";
    echo "<td>". $dato ['ip']."</td>";
-   echo "<td>". $dato ['isdn']."</td>";
+  // echo "<td>". $dato ['isdn']."</td>";
    echo "<td><a href='editarSala.php?id=". $dato ['id_sala_remota']."'>Editar</a></td>";
    echo "<td><a href='eliminarSala.php?id=". $dato ['id_sala_remota']."'>Eliminar</a></td>";
    echo "</tr>";
