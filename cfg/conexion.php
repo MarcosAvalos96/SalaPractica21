@@ -1,8 +1,9 @@
 <?php
-    $servidor = "0.0.0.0";
-    $usuario = "vaictor";
+    $servidor = "localhost";
+    $usuario = "jmanzanoa";
     $db = "c9";
 
+//aiudda profeee
     $conexion = mysql_connect($servidor, $usuario);
         mysql_set_charset('utf8');
     if (!$conexion) {
