@@ -13,4 +13,5 @@
        //echo 'Conectado  satisfactoriamente al servidor <br>';
     }
     mysql_select_db($db, $conexion) or die(mysql_error($conexion));
+    // vas bien! :D
 ?>
